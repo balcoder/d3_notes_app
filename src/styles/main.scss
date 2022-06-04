@@ -1,0 +1,93 @@
+body {
+  background-color: #e4e4e4;
+}
+
+h1 {
+  text-align: center;
+}
+
+#notes,
+.preview {
+  margin: 0 auto 16px;
+  width: 75%;
+}
+
+.note .preview {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.note {
+  background-color: #fdffb7;
+  border: 8px solid #d4daa7;
+  margin: 16px 0;
+}
+
+.preview {
+  background-color: greenyellow;
+  border: 8px solid green;
+  box-sizing: border-box;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  width: 50%;
+}
+
+input,
+button {
+  padding: 10px;
+}
+
+button {
+  background-color: #ff9494;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fe2222;
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+#removeNotes {
+  background-color: teal;
+  border: none;
+  border-radius: 5px;
+}
+#removeNotes:hover {
+  cursor: pointer;
+  background-color: rgb(1, 77, 77);
+  color: white;
+}
+
+#removeNotes:focus {
+  outline: none;
+}
+
+#lucky {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+}
+#lucky:hover {
+  cursor: pointer;
+  background-color: rgb(2, 97, 2);
+  color: white;
+}
+
+#lucky:focus {
+  outline: none;
+}
+
+.hide {
+  display: none;
+}
